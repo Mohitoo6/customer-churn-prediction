@@ -7,7 +7,7 @@ model = joblib.load('random_forest_churn_model_compressed.pkl')
 scaler = joblib.load('scaler.pkl')
 
 # Streamlit App
-st.title("Customer Churn Prediction")
+st.title("CHURN-LENS")
 st.write("Enter customer details to predict churn probability:")
 
 # Input fields for customer details
